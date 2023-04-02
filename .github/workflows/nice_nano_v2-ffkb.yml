@@ -13,3 +13,6 @@ jobs:
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       kconfig: '["CONFIG_ZMK_MOUSE=y"]'
       branches: '["zmkfirmware/zmk/main ftc/zmk/mouse-ftc"]'
+      # branches: '["UncleCJ/miryoku_zmk/nice_nano_v2-ffkb"]'
+      alphas: '["QWERTY"]'
+      nav: '["VI"]'
