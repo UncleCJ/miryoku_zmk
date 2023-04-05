@@ -7,7 +7,7 @@
 #if !defined (MIRYOKU_LAYER_LIST)
 
 #define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Base",   sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp DOWN UP> ;) \
+MIRYOKU_X(BASE,   "Base",   sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp UP DOWN> ;) \
 MIRYOKU_X(EXTRA,  "Extra", ) \
 MIRYOKU_X(TAP,    "Tap",    ) \
 MIRYOKU_X(BUTTON, "Button", ) \
